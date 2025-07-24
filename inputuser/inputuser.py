@@ -18,10 +18,6 @@ def insert_data(first_name, last_name, course, age):
         conn.commit()
         conn.close()
 
-
-
-
-
         print("Data Successfully Inserted")
 
     except Exception as e:
